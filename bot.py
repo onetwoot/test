@@ -1,5 +1,6 @@
 import discord
 from discord.ext import commands
+import os
  
 app = commands.Bot(command_prefix='/')
  
@@ -56,4 +57,4 @@ async def on_ready():
     print('Ready')
      
      
-app.run['token']
+app.run(os.environ['token'])
