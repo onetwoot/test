@@ -56,4 +56,4 @@ async def on_ready():
     print('Ready')
      
      
-app.run('nes.token')
+app.run('token')
